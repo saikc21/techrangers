@@ -1,6 +1,6 @@
-# TechRangers
+# TechRangers Consulting Services INC
 
-**TechRangers** is a modern agency-style marketing website built with **Next.js (App Router)** and **Tailwind CSS**, positioning TechRangers as a [Dexzen Labs](https://dexzenlabs.com) initiative.
+**TechRangers Consulting Services INC** is a production-ready marketing website built with **Next.js (App Router)** and **Tailwind CSS**.
 
 ---
 
@@ -13,12 +13,12 @@ A single-page marketing website featuring:
 | **Navbar** | Fixed header with logo, section anchor links, and primary CTA. Mobile-responsive hamburger menu. |
 | **Hero** | Full-screen headline with primary/secondary CTAs and trust indicator chips. |
 | **Services** | 6-card grid showcasing core service offerings. |
-| **Projects** | 4-card Dexzen Labs project showcase with category tags and CTA links. |
+| **Projects** | 4-card project portfolio showcase with category tags and CTA links. |
 | **About / Why Us** | Company story, stats, and differentiator checklist. |
 | **Process Timeline** | 5-step delivery process with numbered timeline. |
 | **Testimonials** | 3 client testimonials with avatar initials. |
 | **Contact CTA** | Bold call-to-action section with email link. |
-| **Footer** | Brand, quick links, contact info, and Dexzen Labs credit. |
+| **Footer** | Brand, quick links, contact info, and company copyright. |
 
 ---
 
@@ -126,5 +126,5 @@ npm run start   # Starts the production server
 
 ## Brand
 
-TechRangers is a **[Dexzen Labs](https://dexzenlabs.com)** initiative.  
+**TechRangers Consulting Services INC** — delivering high-performance digital products.  
 All content in this repository is original and created for this project.

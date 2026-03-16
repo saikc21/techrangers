@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Eyebrow */}
         <p className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-indigo-500/30 bg-indigo-500/10 text-indigo-300 text-sm font-medium mb-8">
           <span className="w-2 h-2 rounded-full bg-indigo-400 animate-pulse" />
-          A Dexzen Labs Initiative
+          TechRangers Consulting Services INC
         </p>
 
         {/* Headline */}

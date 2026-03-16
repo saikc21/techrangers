@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "TechRangers",
-  tagline: "A Dexzen Labs Initiative",
+  tagline: "TechRangers Consulting Services INC",
   email: "hello@techrangers.com",
   description:
     "TechRangers builds high-performance digital products — from web apps and AI integrations to SaaS platforms and automation tools.",

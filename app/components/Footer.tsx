@@ -20,16 +20,7 @@ export default function Footer() {
               {siteConfig.description}
             </p>
             <p className="text-slate-500 text-xs">
-              A{" "}
-              <a
-                href="https://dexzenlabs.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-indigo-400 hover:text-indigo-300 transition-colors underline underline-offset-2 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-indigo-400 rounded"
-              >
-                Dexzen Labs
-              </a>{" "}
-              initiative
+              TechRangers Consulting Services INC
             </p>
           </div>
 
@@ -68,12 +59,12 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://dexzenlabs.com"
+                  href="https://techrangers.in"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-slate-400 hover:text-white text-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-indigo-500 rounded"
                 >
-                  dexzenlabs.com
+                  techrangers.in
                 </a>
               </li>
             </ul>
@@ -83,18 +74,10 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-slate-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-slate-500 text-sm text-center sm:text-left">
-            &copy; {year} TechRangers. All rights reserved.
+            &copy; {year} TechRangers Consulting Services INC. All rights reserved.
           </p>
           <p className="text-slate-600 text-xs text-center sm:text-right">
-            Built with ❤️ by{" "}
-            <a
-              href="https://dexzenlabs.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-500 hover:text-slate-400 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-indigo-500 rounded underline underline-offset-2"
-            >
-              Dexzen Labs
-            </a>
+            &copy; {year} TechRangers Consulting Services INC. All rights reserved.
           </p>
         </div>
       </div>
