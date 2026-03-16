@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "TechRangers — A Dexzen Labs Initiative",
+  title: "TechRangers — Digital Consulting & Product Engineering",
   description:
-    "TechRangers builds high-performance digital products — web apps, AI integrations, SaaS platforms and automation tools. A Dexzen Labs initiative.",
+    "TechRangers is a full-service digital consulting firm — building high-performance web apps, AI integrations, SaaS platforms and automation tools for ambitious businesses.",
   keywords: [
     "web development",
     "mobile apps",
     "SaaS",
     "AI integration",
     "automation",
-    "Dexzen Labs",
+    "digital consulting",
     "TechRangers",
   ],
-  authors: [{ name: "Dexzen Labs", url: "https://dexzenlabs.com" }],
+  authors: [{ name: "TechRangers", url: "https://techrangers.in" }],
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://techrangers.com",
+    url: "https://techrangers.in",
     siteName: "TechRangers",
-    title: "TechRangers — A Dexzen Labs Initiative",
+    title: "TechRangers — Digital Consulting & Product Engineering",
     description:
       "We build high-performance digital products — web apps, AI tools, SaaS MVPs and automation. Ship faster with TechRangers.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "TechRangers — A Dexzen Labs Initiative",
+    title: "TechRangers — Digital Consulting & Product Engineering",
     description:
       "We build high-performance digital products — web apps, AI tools, SaaS MVPs and automation.",
   },
@@ -43,9 +43,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body
-        className={`antialiased bg-slate-950 text-slate-100`}
-      >
+      <body className="antialiased bg-slate-950 text-slate-100">
         {children}
       </body>
     </html>

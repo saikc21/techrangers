@@ -1,10 +1,17 @@
 export const siteConfig = {
   name: "TechRangers",
-  tagline: "A Dexzen Labs Initiative",
-  email: "hello@techrangers.com",
+  tagline: "Consulting Services INC",
+  email: "hello@techrangers.in",
+  phone: "+91 98765 43210",
   description:
-    "TechRangers builds high-performance digital products — from web apps and AI integrations to SaaS platforms and automation tools.",
+    "TechRangers is a full-service digital consulting firm — building high-performance web apps, AI integrations, SaaS platforms and automation tools for ambitious businesses.",
 };
+
+export const heroStats = [
+  { value: "50+", label: "Products Shipped" },
+  { value: "3×", label: "Faster Delivery" },
+  { value: "98%", label: "Client Satisfaction" },
+];
 
 export const navLinks = [
   { label: "Services", href: "#services" },
@@ -55,32 +62,76 @@ export const services = [
 
 export const projects = [
   {
+    title: "SmartSRS",
+    category: "EdTech / Resource Management",
+    tag: "EdTech",
+    tagColor: "bg-teal-500/20 text-teal-300 border-teal-500/30",
+    context:
+      "A leading educational network needed a single unified platform to manage student records, faculty assignments, timetables and campus resources across 15+ departments — replacing fragmented spreadsheets and legacy tools.",
+    approach: [
+      "Role-based dashboards for admin, faculty and students with real-time data sync",
+      "Smart scheduling engine eliminating double-bookings across 200+ classrooms",
+      "Integrated analytics for academic performance, attendance and resource utilisation",
+    ],
+    outcomes: [
+      { metric: "40%", label: "Admin overhead reduced" },
+      { metric: "15K+", label: "Active users in semester 1" },
+      { metric: "0", label: "Scheduling conflicts post-launch" },
+    ],
+  },
+  {
     title: "FlowSync",
-    category: "SaaS / Automation",
-    description:
-      "An end-to-end workflow automation platform that connects 200+ services, reducing manual ops by 80% for SMBs.",
+    category: "SaaS / Workflow Automation",
     tag: "SaaS",
+    tagColor: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",
+    context:
+      "A high-growth SMB operations team was losing 20+ hours per week to manual, disconnected workflows spanning 10+ tools — hampering scale and causing frequent data errors.",
+    approach: [
+      "End-to-end automation platform connecting 200+ services via drag-and-drop workflow builder",
+      "Smart trigger and condition engine with full audit logging and rollback",
+      "White-label SaaS with multi-tenant architecture for agency resellers",
+    ],
+    outcomes: [
+      { metric: "80%", label: "Manual ops eliminated" },
+      { metric: "12×", label: "Faster process execution" },
+      { metric: "6 wks", label: "Time to measurable ROI" },
+    ],
   },
   {
     title: "NovaMind AI",
-    category: "AI Integration",
-    description:
-      "An AI-powered knowledge management tool that surfaces insights from unstructured documents in real time.",
+    category: "AI / Knowledge Intelligence",
     tag: "AI",
+    tagColor: "bg-cyan-500/20 text-cyan-300 border-cyan-500/30",
+    context:
+      "A research-intensive enterprise couldn't extract actionable insights from thousands of unstructured internal documents — analysts spent hours per report and still missed critical signals.",
+    approach: [
+      "LLM-powered document intelligence with custom vector search and semantic chunking",
+      "Structured data extraction with 90%+ accuracy across PDF, DOCX and HTML formats",
+      "Conversational query interface enabling instant knowledge retrieval with cited sources",
+    ],
+    outcomes: [
+      { metric: "73%", label: "Reduction in research time" },
+      { metric: "50K+", label: "Documents indexed in real-time" },
+      { metric: "90%", label: "Extraction accuracy achieved" },
+    ],
   },
   {
     title: "PulseCommerce",
     category: "E-Commerce Platform",
-    description:
-      "A headless e-commerce engine with real-time inventory, personalised recommendations and a blazing-fast storefront.",
     tag: "E-Commerce",
-  },
-  {
-    title: "ShieldOps",
-    category: "DevSecOps Dashboard",
-    description:
-      "A unified security observability platform for cloud-native teams — monitoring, alerting and compliance in one view.",
-    tag: "DevOps",
+    tagColor: "bg-violet-500/20 text-violet-300 border-violet-500/30",
+    context:
+      "A D2C brand was haemorrhaging revenue due to a slow monolithic storefront, poor mobile experience and no real-time inventory visibility — resulting in overselling and high cart abandonment.",
+    approach: [
+      "Headless commerce re-architecture with Next.js storefront achieving 95+ Lighthouse score",
+      "Real-time inventory sync across warehouse, POS and online channels",
+      "AI-powered personalised product recommendations based on browse and purchase signals",
+    ],
+    outcomes: [
+      { metric: "3.2×", label: "Faster page load speed" },
+      { metric: "28%", label: "Mobile conversion uplift" },
+      { metric: "₹2.4Cr", label: "Incremental Q1 revenue" },
+    ],
   },
 ];
 
