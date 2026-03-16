@@ -18,7 +18,7 @@ export default function Projects() {
         {/* Section header */}
         <div className="text-center mb-16">
           <p className="text-cyan-400 text-sm font-semibold uppercase tracking-widest mb-3">
-            Dexzen Labs Projects
+            Our Work
           </p>
           <h2
             id="projects-heading"
@@ -28,7 +28,7 @@ export default function Projects() {
           </h2>
           <p className="text-slate-400 text-lg max-w-2xl mx-auto">
             A selection of digital products conceived, designed and built by the
-            Dexzen Labs team.
+            TechRangers team.
           </p>
         </div>
 

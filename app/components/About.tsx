@@ -24,10 +24,9 @@ export default function About() {
               </span>
             </h2>
             <p className="text-slate-400 text-lg leading-relaxed mb-6">
-              TechRangers is the product studio arm of{" "}
-              <strong className="text-white">Dexzen Labs</strong> — built to
-              help startups and growing businesses ship great digital products
-              without the overhead of a full in-house team.
+              TechRangers Consulting Services INC is a digital product studio
+              built to help startups and growing businesses ship great digital
+              products without the overhead of a full in-house team.
             </p>
             <p className="text-slate-400 leading-relaxed mb-10">
               We combine senior engineering talent, proven design systems and an
